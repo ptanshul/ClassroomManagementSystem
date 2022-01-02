@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM openjdk:8
+FROM openjdk:17
 # Add Maintainer Info
 LABEL maintainer="iiitb"
 # Add a volume pointing to /tmp to make database persistent
